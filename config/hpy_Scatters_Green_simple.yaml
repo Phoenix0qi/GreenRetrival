@@ -1,0 +1,29 @@
+lr0: 0.001 # 0.01  # initial learning rate (SGD=1E-2, Adam=1E-3)
+#lr0: 0.001  # initial learning rate (SGD=1E-2, Adam=1E-3)
+lrf: 0.001  # final OneCycleLR learning rate (lr0 * lrf)
+momentum: 0.937  # SGD momentum/Adam beta1
+weight_decay: 0  # optimizer weight decay 5e-4
+warmup_epochs: 0  # warmup epochs (fractions ok) #hyp['warmup_epochs']
+#warmup_momentum: 0.8  # warmup initial momentum
+#warmup_bias_lr: 0.1  # warmup initial bias lr
+
+Model_type: 'Scatters_Green_simple'
+#Model_type: 'MLP_Tx_Rx_E'
+#loss_type: 'MSE_Ez_conj'
+loss_type: 'MSE_Ez'
+#loss_type: 'MSE_Ez_fu'
+#loss_type: 'MSE_Ez___chamfer_loss_x'  # feko
+#loss_type: 'MSE_Ez_conj___chamfer_loss_x'
+#loss_type: 'MSE_Ez_j' # pazhou
+#loss_type: 'MSE_Ez_j___chamfer_loss_x' # pazhou
+#loss_type: 'MSE_Ez_reverse___chamfer_loss_x'
+#loss_type: 'MSE_Ez_reverse_ReIm___chamfer_loss_x'
+#loss_type: 'MSE_Ez_reverse___chamfer_loss_x_ckai'
+#loss_type: 'MSE_Ez_reverse___chamfer_loss_x_ckai___orient_cos_loss_ckai'
+#loss_type: 'MSE_Ez_reverse___chamfer_loss_x___orient_cos_loss'  # loss type # MSE_Ez_reverse___chamfer_loss___orient_cos_loss
+#loss_type: 'MSE_Ez_reverse___chamfer_loss_x___orient_cos_loss_Ez_theta' # MSE_Ez_reverse___chamfer_loss_x___orient_cos_loss_Ez_theta
+
+
+alpha_chamfer_loss: 0.01 # 0.01 # 1 # pazhou 0.0001 0.01
+alpha_orient_cos_loss: 0.01 # 1 # 0.01  #
+alpha_orient_Ez_theta_loss: 0.01

@@ -1,0 +1,5 @@
+data_type: Cube_3G_e5_sample_fine
+data_path: ./datasets/Cube_3G_e5_sample_fine # Cube_3G_e5_sample_fine # cube_3G_sameas_NeRF2 # Indoor_5G_scatters # cube_3G_sameas_NeRF2 # Cube_3G_e5_sample_fine # Cube_3G_e5_sample_fine_no015 # Cube_3G_e5_sample_fine
+train: TrainDataset.h5
+test: DevDataset.h5
+val: DevDataset.h5

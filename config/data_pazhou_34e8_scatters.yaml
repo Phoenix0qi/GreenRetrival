@@ -1,0 +1,8 @@
+
+data_type: pazhou_34e8_scatters
+data_path: ./datasets/pazhou_34e8_scatters_result2_4TX # pazhou_34e8_scatters_result2_4TX   # pazhou_34e8_scatters_result2_singleTX
+train: TrainDataset.h5
+test: DevDataset.h5
+val: DevDataset.h5
+
+

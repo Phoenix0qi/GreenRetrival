@@ -1,0 +1,6 @@
+
+data_type: Cube_3G_e5_sample_fine
+data_path: ./datasets/indoor_e3_3cm_dataset
+train: TrainDataset.h5
+test: DevDataset.h5
+val: DevDataset.h5

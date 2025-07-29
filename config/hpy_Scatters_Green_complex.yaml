@@ -1,0 +1,17 @@
+lr0: 0.01  # initial learning rate (SGD=1E-2, Adam=1E-3)
+lrf: 0.01  # final OneCycleLR learning rate (lr0 * lrf)
+momentum: 0.937  # SGD momentum/Adam beta1
+weight_decay: 0.0005  # optimizer weight decay 5e-4
+warmup_epochs: 0  # warmup epochs (fractions ok) #hyp['warmup_epochs']
+warmup_momentum: 0.8  # warmup initial momentum
+warmup_bias_lr: 0.1  # warmup initial bias lr
+
+Model_type: 'Scatters_Green_complex'
+#loss_type: 'MSE_Ez_conj___chamfer_loss___orient_cos_loss'  # loss type
+#loss_type: 'MSE_Ez_conj'
+#loss_type: 'MSE_Ez_conj___chamfer_loss_x'
+#loss_type: 'MSE_Ez'
+loss_type: 'MSE_Ez___chamfer_loss_x'
+
+alpha_chamfer_loss: 1
+alpha_orient_cos_loss: 0.01

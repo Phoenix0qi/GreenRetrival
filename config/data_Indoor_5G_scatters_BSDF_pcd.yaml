@@ -1,0 +1,7 @@
+
+data_type: Indoor_5G_scatters
+data_path: ./datasets/Indoor_5G_scatters_BSDF_pcd
+train: TrainDataset.h5
+test: DevDataset.h5
+val: DevDataset.h5
+

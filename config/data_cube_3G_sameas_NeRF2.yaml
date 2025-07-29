@@ -1,0 +1,6 @@
+
+data_type: cube_3G_sameas_NeRF2
+data_path: ./datasets/cube_3G_sameas_NeRF2
+train: TrainDataset.h5
+test: DevDataset.h5
+val: DevDataset.h5
